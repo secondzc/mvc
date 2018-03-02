@@ -45,9 +45,9 @@
     	<!--<property name="securityManager" ref="securityManager"/>-->
 	<!--</bean>-->
 	<!--  -->
-	<mvc:view-resolvers>
-	    <mvc:jsp cache-views="false" prefix="/WEB-INF/jsp/" suffix=".jsp" />  
-	</mvc:view-resolvers>
+	<!--<mvc:view-resolvers>-->
+	    <!--<mvc:jsp cache-views="false" prefix="/WEB-INF/jsp/" suffix=".jsp" />  -->
+	<!--</mvc:view-resolvers>-->
 	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
 		<description>注解controller方法适配器</description>
 		<property name="messageConverters">
